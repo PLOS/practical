@@ -4,6 +4,10 @@
 
 ## Running tests
 
+`pipenv run pytest`
+
+## Running development server
+
 `pipenv run python main.py`
 
 ## TODO
