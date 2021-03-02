@@ -1,8 +1,10 @@
 from main import *
 
-"""
-Tests
-"""
+import json
+import pytest
+
+
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///"
 
 
 @pytest.fixture(scope="function")

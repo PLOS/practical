@@ -1,10 +1,10 @@
+import os
+
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
-import pytest
-import json
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///practical.sql"
 app.config["TESTING"] = True
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
@@ -60,4 +60,6 @@ Flask application
 """
 
 if __name__ == "__main__":
+    if not os.path.isfile("practical.sql"):
+        db.create_all()
     app.run()
