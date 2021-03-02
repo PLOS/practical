@@ -13,20 +13,24 @@
 ## Frontend Requirements
 
 - [ ] new react-based browser frontend using modern best practice tooling
-- [ ] display a list of articles
-- [ ] display an article's details
-- [ ] mobile-first responsive design
-- [ ] meets basic accessibility requirements
-- [ ] unit and/or integration tests
-- [ ] anonymous user can edit article details (BONUS)
+      (whatever that means to you) (MVP)
+- [ ] display a list of articles by title (MVP)
+- [ ] mobile-first responsive design (MVP)
+- [ ] meets basic accessibility requirements (MVP)
+- [ ] unit and/or integration tests (MVP)
+- [ ] display an article's details (M1)
+- [ ] display an author's details (M1)
+- [ ] link article to author (M1)
+- [ ] anonymous user can edit article details (M2)
 
 
 ## Backend Requirements
 
-- [ ] implement the endpoint(s) needed to power the frontend (in python/flask)
-- [ ] use the flask skeleton code and tests as your guide
+- [ ] implement the endpoint(s) needed to power the frontend in python/flask
+      (MVP)
 - [ ] write a Dockerfile for deploying the application in (a) container(s)
-      (BONUS)
+      (M1)
+- [ ] associate multiple authors with an article (M2)
 
 
 ## Useful documentation
