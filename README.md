@@ -30,6 +30,7 @@
       (MVP)
 - [ ] write a Dockerfile for deploying the application in (a) container(s)
       (M1)
+- [ ] create a CI pipeline for the whole application (M1)
 - [ ] associate multiple authors with an article (M2)
 
 
