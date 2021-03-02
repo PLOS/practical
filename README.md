@@ -6,16 +6,28 @@
 
 `pipenv run pytest`
 
-## Running development server
+## Running python development server
 
 `pipenv run python main.py`
 
-## TODO
+## Frontend Requirements
 
-- [ ] Implement `/articles.json` endpoint. Should return all all articles
-- [ ] Implement `/article.json?id=123` endpoint. Should return a single article
-- [ ] Implement `/articles.json?author_id=123` endpoint. Should return all articles by an author
-- [ ] Change database schema to allow multiple authors per article
+- [ ] new react-based browser frontend using modern best practice tooling
+- [ ] display a list of articles
+- [ ] display an article's details
+- [ ] mobile-first responsive design
+- [ ] meets basic accessibility requirements
+- [ ] unit and/or integration tests
+- [ ] anonymous user can edit article details (BONUS)
+
+
+## Backend Requirements
+
+- [ ] implement the endpoint(s) needed to power the frontend (in python/flask)
+- [ ] use the flask skeleton code and tests as your guide
+- [ ] write a Dockerfile for deploying the application in (a) container(s)
+      (BONUS)
+
 
 ## Useful documentation
 
