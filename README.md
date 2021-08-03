@@ -4,14 +4,35 @@
 
 ## Running tests
 
+`pipenv run pytest`
+
+## Running python development server
+
 `pipenv run python main.py`
 
-## TODO
+## Frontend Requirements
 
-- [ ] Implement `/articles.json` endpoint. Should return all all articles
-- [ ] Implement `/article.json?id=123` endpoint. Should return a single article
-- [ ] Implement `/articles.json?author_id=123` endpoint. Should return all articles by an author
-- [ ] Change database schema to allow multiple authors per article
+- [ ] new react-based browser frontend using modern best practice tooling
+      (whatever that means to you) (MVP)
+- [ ] display a list of articles by title (MVP)
+- [ ] mobile-first responsive design (MVP)
+- [ ] meets basic accessibility requirements (MVP)
+- [ ] unit and/or integration tests (MVP)
+- [ ] display an article's details (M1)
+- [ ] display an author's details (M1)
+- [ ] link article to author (M1)
+- [ ] anonymous user can edit article details (M2)
+
+
+## Backend Requirements
+
+- [ ] implement the endpoint(s) needed to power the frontend in python/flask
+      (MVP)
+- [ ] write a Dockerfile for deploying the application in (a) container(s)
+      (M1)
+- [ ] create a CI pipeline for the whole application (M1)
+- [ ] associate multiple authors with an article (M2)
+
 
 ## Useful documentation
 
