@@ -61,5 +61,6 @@ Flask application
 
 if __name__ == "__main__":
     if not os.path.isfile("practical.sql"):
-        db.create_all()
+        with app.app_context():
+            db.create_all()
     app.run()
