@@ -31,15 +31,15 @@ This creates and enters a virtual environment while installing all required pack
 
 ### Run Tests
 ```bash
-python main.py
-```
-Run this to start a flask server at `http://localhost:5000` for manual testing
-
-### Run the Flask Development Server
-```bash
 pytest
 ```
 Run this to see if your tests pass.
+
+### Run the Flask Development Server
+```bash
+python main.py
+```
+Run this to start a flask server at `http://localhost:5000` for manual testing
 
 
 ## API Endpoints to Implement
